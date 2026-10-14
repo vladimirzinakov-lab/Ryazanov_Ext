@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bf28c5c-2f7f-43cd-af6c-62bcf011d5dd">
+  <producedTypes>
+    <objectType typeId="c8c050ed-12c4-4845-b22f-ddffc6f1642a" valueTypeId="b2dfe3fe-0ea6-4580-80fb-4573b0ef1e36"/>
+  </producedTypes>
+  <name>ВаловаяПрибыльДопРасходы05_21</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валовая прибыль доп расходы (вер. 5.21) Каналы продаж</value>
+  </synonym>
+  <comment>100 (05.21) 14.10.2026</comment>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="d4ce3a3d-503e-4228-9bca-41ef02699eb6"/>
+  <defaultForm>ExternalReport.ВаловаяПрибыльДопРасходы05_21.Form.ФормаОтчета</defaultForm>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="7546adc8-e5b6-41ba-92b8-16ac8f4b4953">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a102768-d866-4afb-a1d8-a80990ff4cc3">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3606f885-1112-4203-b180-a3ddefb37b74">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="2c142e03-2582-4135-a63a-4bfd3c3c8524">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00c883f4-e8fa-4b0b-af3a-4632b1318af7">
+    <name>КодПлатежнойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код платежной системы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="09e3b13a-7718-4355-8441-e8fc785b27d9">
+    <name>ВидУчетнойЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учетной цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f06e87d1-14cf-427e-9c8f-fff4aac9e60c">
+    <name>КаналПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продажи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="aabbec35-cf67-406b-9724-564a94762f64">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="dd0c75ce-7a77-4a0e-be26-e96de8706ef7">
+    <name>МакетЗаказНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заказ номенклатура</value>
+    </synonym>
+  </templates>
+  <templates uuid="cda45dee-2f43-4faf-9b86-1957b8b8cad7">
+    <name>МакетНоменклатураЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет номенклатура заказ</value>
+    </synonym>
+  </templates>
+  <templates uuid="4ad94f06-d117-4503-9d70-985d9c066e40">
+    <name>СхемаКомпоновкиДанныхЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных Зарплата по менеджерам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="97a04651-67ec-4465-899d-d44b42474645">
+    <name>Отбор_Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор заказы</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
